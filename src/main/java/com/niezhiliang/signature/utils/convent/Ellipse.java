@@ -1,8 +1,8 @@
 package com.niezhiliang.signature.utils.convent;
 
-import com.niezhiliang.signature.utils.SealCircle;
-import com.niezhiliang.signature.utils.SealConfiguration;
-import com.niezhiliang.signature.utils.SealFont;
+import com.niezhiliang.signature.utils.entity.SealCircle;
+import com.niezhiliang.signature.utils.entity.SealConfiguration;
+import com.niezhiliang.signature.utils.entity.SealFont;
 import com.niezhiliang.signature.utils.SealUtils;
 import com.niezhiliang.signature.utils.entity.SealEntity;
 
@@ -11,7 +11,7 @@ import com.niezhiliang.signature.utils.entity.SealEntity;
  * @Date: 2019/4/24 上午9:50
  * Description:
  */
-public class EllipseFactory extends BaseSignatrue {
+public class Ellipse extends BaseSignatrue {
     @Override
     public String createCompanySign(SealEntity sealEntity) throws Exception {
         SealConfiguration configuration = new SealConfiguration();
@@ -43,7 +43,7 @@ public class EllipseFactory extends BaseSignatrue {
             viceFont.setFontFamily(sealEntity.getFont());
             viceFont.setMarginSize(5);
             /**************************************************/
-            viceFont.setFontText(sealEntity.getFont());
+            viceFont.setFontText(sealEntity.getSerNo());
             viceFont.setFontSize(13);
             viceFont.setFontSpace(12.0);
             /***************************************************/

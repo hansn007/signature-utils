@@ -106,4 +106,6 @@ public class SealEntity {
     public String getFont() {
         return font > fonts.size() ? fonts.get(0) : fonts.get(font);
     }
+
+
 }

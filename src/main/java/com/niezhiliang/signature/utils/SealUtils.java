@@ -3,6 +3,9 @@ package com.niezhiliang.signature.utils;
 
 import com.niezhiliang.signature.utils.constant.ColorEnum;
 import com.niezhiliang.signature.utils.constant.FontEnum;
+import com.niezhiliang.signature.utils.entity.SealCircle;
+import com.niezhiliang.signature.utils.entity.SealConfiguration;
+import com.niezhiliang.signature.utils.entity.SealFont;
 import org.apache.tomcat.util.codec.binary.Base64;
 
 import javax.imageio.ImageIO;
